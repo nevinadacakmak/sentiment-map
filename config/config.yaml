@@ -1,0 +1,25 @@
+api_key: your_reddit_api_key
+mongo_uri: mongodb://localhost:27017
+database_name: sentiment_analysis
+collection_name: reddit_posts
+provinces:
+  - name: Alberta
+    subreddit: alberta
+  - name: British Columbia
+    subreddit: britishcolumbia
+  - name: Manitoba
+    subreddit: manitoba
+  - name: New Brunswick
+    subreddit: newbrunswick
+  - name: Newfoundland and Labrador
+    subreddit: newfoundland
+  - name: Nova Scotia
+    subreddit: novascotia
+  - name: Ontario
+    subreddit: ontario
+  - name: Prince Edward Island
+    subreddit: princeedwardisland
+  - name: Quebec
+    subreddit: quebec
+  - name: Saskatchewan
+    subreddit: saskatchewan
